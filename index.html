@@ -267,6 +267,7 @@
 </div>
 
 <script src="semanas.js"></script>
+<script src="acervo.js"></script>
 <script>
 /* Os dados de cada semana ficam em semanas.js */
 const PASTA = "banners/";
@@ -290,10 +291,17 @@ function toDate(ddmm, sem){
 }
 
 /* Junta os jogos de todas as semanas, cada um ligado à pasta da sua semana */
-const TODOS = SEMANAS.flatMap(sem => sem.jogos.map((src, i) => {
+const CURADOS = SEMANAS.flatMap(sem => sem.jogos.map((src, i) => {
   const date = toDate(src.data, sem);
   return { ...src, sem:sem.id, num:i + 1, date, key:isoKey(date) };
 }));
+/* Acervo lido das pastas de mês (acervo.js). Datas que estão em semanas.js usam semanas.js. */
+const DATAS_CURADAS = new Set(CURADOS.map(j => j.key));
+const ACERVO_JOGOS = (typeof ACERVO !== "undefined" ? ACERVO : [])
+  .filter(a => !DATAS_CURADAS.has(a.data))
+  .map(a => ({ ...a, key:a.data, date:fromKey(a.data), modalidade:"", acervo:true }));
+const TODOS = [...CURADOS, ...ACERVO_JOGOS];
+const urlArq = p => p.split("/").map(encodeURIComponent).join("/");
 function isoKey(d){ return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
 function fromKey(k){ const [y, m, d] = k.split("-").map(Number); return new Date(y, m - 1, d); }
 const DATAS = [...new Set(TODOS.map(j => j.key))].sort();
@@ -309,10 +317,12 @@ function loadDate(key){
     const j = { ...src, n:i + 1, dia:key };
     j.versoes = j.versoes || VERSOES_PADRAO;
     j.atual = j.versoes[0];
+    if (j.acervo){ j.num = i + 1; }
+    const fixos = j.src || null;
     j.src = {}; j.ok = {};
     j.versoes.forEach(v => TAM.forEach(t => {
       const k = v + "-" + t;
-      j.src[k] = `${PASTA}${j.sem}/jogo-${pad(j.num)}-${k}${j.ext || EXT}`;
+      j.src[k] = fixos ? (fixos[k] ? urlArq(fixos[k]) : "") : `${PASTA}${j.sem}/jogo-${pad(j.num)}-${k}${j.ext || EXT}`;
       j.ok[k] = false;
     }));
     return j;
@@ -402,13 +412,13 @@ function card(j){
   return `<article class="game${j.final ? " is-final" : ""}" id="jogo-${j.n}" data-n="${j.n}">
     <div class="info">
       <div class="info-top">
-        <span>Jogo ${j.num}, ${esc(j.modalidade.toLowerCase())}</span>
+        <span>Jogo ${j.num}${j.modalidade ? ", " + esc(j.modalidade.toLowerCase()) : ""}</span>
         ${j.final ? '<span class="pill final">Final</span>' : ""}
         <span class="pill ok" data-ok hidden>Pronto</span>
       </div>
-      <div class="time">${esc(j.hora)}</div>
+      ${j.hora ? `<div class="time">${esc(j.hora)}</div>` : ""}
       <div class="match">${esc(j.confronto)}</div>
-      <div class="comp">${esc(j.campeonato)}</div>
+      ${j.campeonato ? `<div class="comp">${esc(j.campeonato)}</div>` : ""}
       ${j.obs ? `<div class="note">${ico.warn}<span>${esc(j.obs)}</span></div>` : ""}
       ${seg}
       <div class="actions">
@@ -450,7 +460,7 @@ function render(){
 
 /* Descobre quais arquivos já existem na pasta */
 function probe(){
-  JOGOS.forEach(j => Object.keys(j.src).forEach(k => {
+  JOGOS.forEach(j => Object.keys(j.src).filter(k => j.src[k]).forEach(k => {
     const im = new Image(), g = gen;
     im.onload = () => { if (g !== gen) return; j.ok[k] = true; const art = $(`#jogo-${j.n}`); if (art) paintCard(art); stats(); };
     im.src = j.src[k];
@@ -481,7 +491,7 @@ function closeLb(){ $("#lb").classList.remove("open"); document.body.style.overf
 function paint(){
   const j = JOGOS[cur.n - 1], d = dayOf(j.dia);
   $("#lb-img").src = j.src[cur.v + "-" + cur.t]; $("#lb-img").alt = j.confronto;
-  $("#lb-cap").innerHTML = `<div class="match">${esc(j.confronto)}</div><div class="comp">${d.nome}, ${d.data}, ${esc(j.hora)}. ${NOMES_VERSAO[cur.v]}, ${cur.t === "desk" ? "desktop" : "mobile"}.</div>`;
+  $("#lb-cap").innerHTML = `<div class="match">${esc(j.confronto)}</div><div class="comp">${d.nome}, ${d.data}${j.hora ? ", " + esc(j.hora) : ""}. ${NOMES_VERSAO[cur.v]}, ${cur.t === "desk" ? "desktop" : "mobile"}.</div>`;
 }
 function step(dir){
   const s = seq(); if (!s.length) return;

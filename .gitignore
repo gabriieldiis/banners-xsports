@@ -1,0 +1,5 @@
+# Arquivos de trabalho que não precisam ir para o site
+*.psd
+*.zip
+Thumbs.db
+.DS_Store

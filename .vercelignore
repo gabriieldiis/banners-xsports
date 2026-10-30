@@ -1,0 +1,6 @@
+*.psd
+*.zip
+*.db
+.DS_Store
+**/elmt/**
+**/Elmt/**
