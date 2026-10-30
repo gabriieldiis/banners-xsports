@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#D52827">
+<title>Banners Xsports</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  /* Paleta: vermelho Xsports + branco, com o azul-marinho das artes como apoio */
+  :root{
+    --red:#D52827;
+    --red-deep:#A8191A;
+    --red-soft:#FCE8E8;
+    --paper:#FFFFFF;
+    --mist:#F2F2F2;
+    --navy:#1B2242;
+    --ink:#22252B;
+    --muted:#6E6870;
+    --line:#E4E1E1;
+    --display:"Anton","Impact","Arial Narrow",sans-serif;
+    --ui:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    --cond:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--mist);color:var(--ink);font-family:var(--ui);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+  a{color:inherit}
+  [hidden]{display:none!important}
+  :focus-visible{outline:3px solid var(--navy);outline-offset:2px;border-radius:8px}
+  .wrap{max-width:1320px;margin:0 auto;padding-left:24px;padding-right:24px}
+
+  /* ---------- Topo: faixa vermelha em diagonal, como nas artes ---------- */
+  .stage{position:relative;background:var(--paper);overflow:hidden;border-bottom:1px solid var(--line)}
+  .stage::before{
+    content:"";position:absolute;inset:0 auto 0 0;width:min(58%,820px);
+    background:linear-gradient(160deg,var(--red) 0%,var(--red-deep) 100%);
+    clip-path:polygon(0 0,100% 0,calc(100% - 90px) 100%,0 100%);
+  }
+  .stage::after{
+    content:"";position:absolute;top:0;bottom:0;left:calc(min(58%,820px) - 26px);width:90px;
+    background:var(--mist);clip-path:polygon(60px 0,100% 0,30px 100%,0 100%);opacity:.9
+  }
+  .stage-in{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;padding-top:36px;padding-bottom:40px}
+  .brand{color:#fff;display:flex;flex-direction:column;gap:28px;max-width:620px}
+  .brand img{height:30px;width:auto;align-self:flex-start}
+  .brand .logo-txt{font-family:var(--display);font-size:30px;line-height:1;letter-spacing:.02em}
+  .brand h1{font-family:var(--display);font-weight:400;font-size:clamp(56px,8vw,112px);line-height:.88;text-transform:uppercase;letter-spacing:.005em}
+  .brand p{font-size:18px;max-width:34ch;opacity:.92}
+  .meter{display:flex;align-items:center;gap:14px;font-weight:600;font-size:15px}
+  .meter-bar{flex:1;max-width:260px;height:8px;border-radius:99px;background:rgba(255,255,255,.25);overflow:hidden}
+  .meter-bar i{display:block;height:100%;width:0;background:#fff;border-radius:99px;transition:width .6s}
+
+  .days{align-self:center;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .daybtn{position:relative;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:14px;align-items:center;text-align:left;
+    padding:16px 18px;border-radius:20px;background:var(--paper);border:1.5px solid var(--line);transition:border-color .2s,box-shadow .2s}
+  .daybtn:hover{border-color:#cfcaca}
+  .daybtn .num{grid-row:1/3;font-family:var(--display);font-size:54px;line-height:.9;color:var(--navy)}
+  .daybtn .wk{font-family:var(--cond);font-weight:700;font-size:22px;line-height:1.1}
+  .daybtn .cnt{font-size:14px;color:var(--muted)}
+  .daybtn .today{position:absolute;top:12px;right:14px;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--red)}
+  .daybtn .today i{width:8px;height:8px;border-radius:50%;background:var(--red);animation:pulse 1.6s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(213,40,39,.55)}70%{box-shadow:0 0 0 8px rgba(213,40,39,0)}100%{box-shadow:0 0 0 0 rgba(213,40,39,0)}}
+  .daybtn[aria-pressed="true"]{border-color:var(--red);box-shadow:0 0 0 3px var(--red-soft),0 14px 30px -18px rgba(213,40,39,.7)}
+  .daybtn[aria-pressed="true"] .num{color:var(--red)}
+  .all{grid-column:1/-1;justify-self:start;font-weight:600;font-size:14px;color:var(--muted);padding:8px 16px;border-radius:99px;background:var(--paper);border:1.5px solid var(--line)}
+  .all:hover{border-color:#cfcaca}
+  .all[aria-pressed="true"]{color:var(--red);border-color:var(--red)}
+
+  /* ---------- Barra fixa de vidro ---------- */
+  .bar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.72);backdrop-filter:saturate(180%) blur(18px);-webkit-backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid rgba(0,0,0,.06)}
+  .bar-in{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+  .bar h2{font-family:var(--cond);font-weight:700;font-size:22px}
+  .bar h2 span{color:var(--muted);font-weight:600}
+  .seg{display:flex;padding:4px;border-radius:99px;background:var(--mist);border:1px solid var(--line)}
+  .seg button{display:flex;align-items:center;gap:7px;padding:8px 15px;border-radius:99px;font-size:14px;font-weight:600;color:var(--muted);transition:background .2s,color .2s}
+  .seg button svg{width:16px;height:16px}
+  .seg button[aria-pressed="true"]{background:var(--paper);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+
+  /* ---------- Lista de jogos ---------- */
+  main{padding-top:48px;padding-bottom:64px}
+  .day{margin-bottom:48px}
+  .day-head{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:14px;row-gap:4px;margin-bottom:16px}
+  .day-head h3{font-family:var(--display);font-weight:400;font-size:40px;line-height:1;text-transform:uppercase;color:var(--navy)}
+  .day-head h3 em{font-style:normal;color:var(--red)}
+  .day-head span{color:var(--muted);font-size:15px}
+  .list{display:grid;gap:14px}
+
+  .game{position:relative;display:grid;grid-template-columns:290px minmax(0,1fr) 210px;gap:20px;align-items:center;
+    padding:16px 16px 16px 22px;border-radius:24px;background:var(--paper);border:1px solid var(--line)}
+  .game::before{content:"";position:absolute;left:0;top:22px;bottom:22px;width:5px;border-radius:0 5px 5px 0;background:var(--line)}
+  .game.is-done::before{background:var(--red)}
+  .game.is-final{background:linear-gradient(100deg,var(--red-soft) 0%,var(--paper) 38%)}
+
+  .info{display:flex;flex-direction:column;gap:6px;min-width:0}
+  .info-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+  .pill{font-size:12px;font-weight:700;padding:3px 10px;border-radius:99px}
+  .pill.final{background:var(--red);color:#fff}
+  .pill.ok{background:#E6F5EC;color:#17733F}
+  .time{font-family:var(--display);font-size:44px;line-height:.95;color:var(--red)}
+  .comp{font-size:14px;font-weight:600;color:var(--muted)}
+  .match{font-family:var(--cond);font-weight:700;font-size:25px;line-height:1.05;color:var(--navy)}
+  .note{display:flex;gap:8px;align-items:flex-start;font-size:13.5px;line-height:1.35;padding:8px 10px;border-radius:12px;background:#FFF5DB;color:#7A5300}
+  .note svg{flex:none;margin-top:1px}
+  .vers{display:flex;gap:4px;padding:4px;margin-top:4px;border-radius:99px;background:var(--mist);width:max-content}
+  .vers button{display:flex;align-items:center;gap:6px;padding:6px 13px;border-radius:99px;font-size:13px;font-weight:600;color:var(--muted)}
+  .vers button[aria-pressed="true"]{background:var(--navy);color:#fff}
+  .vers .dot{width:7px;height:7px;border-radius:50%;background:var(--red)}
+  .actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+  .btn{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border-radius:99px;font-size:13.5px;font-weight:600;text-decoration:none;
+    background:var(--paper);border:1.5px solid var(--line);transition:background .15s,border-color .15s,color .15s}
+  .btn:hover{border-color:var(--red);color:var(--red)}
+  .btn.primary{background:var(--red);border-color:var(--red);color:#fff}
+  .btn.primary:hover{background:var(--red-deep);border-color:var(--red-deep);color:#fff}
+  .btn[aria-disabled="true"]{opacity:.38;pointer-events:none}
+  .btn svg{width:15px;height:15px}
+
+  .shot{position:relative;border-radius:16px;overflow:hidden;background:var(--mist);border:1px solid var(--line)}
+  .shot.desk{aspect-ratio:1296/270}
+  .shot.mob{aspect-ratio:615/420}
+  .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .35s}
+  .shot.loaded{cursor:zoom-in}
+  .shot.loaded img{opacity:1}
+  .ph{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:2px;padding:12px 18px;
+    background:repeating-linear-gradient(135deg,#fff 0 12px,#F7F5F5 12px 24px)}
+  .ph b{font-size:12px;font-weight:600;color:var(--muted)}
+  .ph strong{font-family:var(--cond);font-weight:700;font-size:clamp(17px,1.7vw,24px);line-height:1.05;color:#B9B3B5}
+  .shot.mob .ph strong{font-size:17px}
+  .tag{position:absolute;left:10px;bottom:10px;z-index:1;font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:99px;
+    background:rgba(255,255,255,.78);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:var(--ink)}
+  .shot:not(.loaded) .tag{display:none}
+  .shot.loaded .tag{opacity:0;transition:opacity .2s}
+  .shot.loaded:hover .tag{opacity:1}
+  .shots{display:contents}
+
+  body[data-view="desk"] .shot.mob{display:none}
+  body[data-view="desk"] .game{grid-template-columns:290px minmax(0,1fr)}
+  body[data-view="mob"] .shot.desk{display:none}
+  body[data-view="mob"] .list{grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+  body[data-view="mob"] .game{grid-template-columns:1fr;align-items:start;padding:14px}
+  body[data-view="mob"] .game::before{display:none}
+  body[data-view="mob"] .shots{display:block;order:-1}
+
+  /* ---------- Lightbox ---------- */
+  .lb{position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;padding:28px;
+    background:rgba(242,242,242,.7);backdrop-filter:blur(22px) saturate(160%);-webkit-backdrop-filter:blur(22px) saturate(160%)}
+  .lb.open{display:flex}
+  .lb-box{display:flex;flex-direction:column;align-items:center;gap:16px;width:100%;max-width:1400px}
+  .lb img{max-height:74vh;max-width:100%;border-radius:18px;box-shadow:0 30px 70px -20px rgba(27,34,66,.45)}
+  .lb-cap{text-align:center}
+  .lb-cap .match{font-size:26px}
+  .lb-cap .comp{font-size:15px}
+  .round{position:absolute;width:50px;height:50px;border-radius:50%;display:grid;place-items:center;background:var(--paper);border:1px solid var(--line);
+    box-shadow:0 6px 18px -8px rgba(0,0,0,.25);font-size:24px;line-height:1}
+  .round:hover{background:var(--red);border-color:var(--red);color:#fff}
+  .lb-x{top:20px;right:20px}
+  .lb-prev{left:20px;top:50%;transform:translateY(-50%)}
+  .lb-next{right:20px;top:50%;transform:translateY(-50%)}
+
+  footer{padding:28px 0 44px;color:var(--muted);font-size:14px}
+
+  @media (max-width:1080px){
+    .stage::before{width:100%;clip-path:polygon(0 0,100% 0,100% 62%,0 78%)}
+    .stage::after{display:none}
+    .stage-in{grid-template-columns:1fr;gap:28px}
+    .game,body[data-view="desk"] .game{grid-template-columns:1fr}
+    .shots{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:14px;align-items:center}
+    body[data-view="desk"] .shots,body[data-view="mob"] .shots{grid-template-columns:1fr}
+  }
+  @media (max-width:640px){
+    .wrap{padding-left:16px;padding-right:16px}
+    .stage::before{clip-path:polygon(0 0,100% 0,100% 50%,0 60%)}
+    .days{grid-template-columns:1fr 1fr;gap:10px}
+    .daybtn{padding:12px 14px;column-gap:10px}
+    .daybtn .num{font-size:40px}
+    .daybtn .wk{font-size:18px}
+    .daybtn .today span{display:none}
+    .bar h2{font-size:18px}
+    .seg button span{display:none}
+    .shots{grid-template-columns:1fr}
+    .time{font-size:38px}
+    .lb-prev,.lb-next{top:auto;bottom:20px;transform:none}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body data-view="both">
+
+
+
+<main class="wrap" id="list"></main>
+
+<footer class="wrap">Horários de Brasília. O horário do banner é o início real do jogo. Desktop 1296 × 270 px, mobile 615 × 420 px.</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Banner ampliado">
+  <button class="round lb-x" id="lb-x" aria-label="Fechar">×</button>
+  <button class="round lb-prev" id="lb-prev" aria-label="Banner anterior">‹</button>
+  <button class="round lb-next" id="lb-next" aria-label="Próximo banner">›</button>
+  <div class="lb-box">
+    <img id="lb-img" alt="">
+    <div class="lb-cap" id="lb-cap"></div>
+  </div>
+</div>
+
+<script>
+/* =========================================================
+   CONFIGURAÇÃO: edite só esta parte a cada semana
+   ---------------------------------------------------------
+   Cada jogo pode ter versões:
+     "pre"   → Pré-jogo (com data e horário)
+     "live"  → Ao vivo (Assista agora)
+     "unico" → Peça única
+   Padrão de nome na pasta /banners:
+     jogo-03-pre-desk.jpg   (1296 × 270)
+     jogo-03-pre-mob.jpg    (615 × 420)
+     jogo-03-live-desk.jpg  ...
+   Use ext:".png" no jogo quando o arquivo for PNG.
+   ========================================================= */
+const LOGO    = "https://img.kalunga.com.br/xsports/logo-xsports-branco-3.png";
+const PASTA   = "banners/";
+const EXT     = ".jpg";
+const ANO     = 2026;
+const PERIODO = "Jogos ao vivo de 30/10 a 02/11. Pré-jogo e ao vivo, em desktop e mobile.";
+const VERSOES_PADRAO = ["pre", "live"];
+
+const DIAS = [
+  { id:"sex", data:"30/10", nome:"Sexta" },
+  { id:"sab", data:"31/10", nome:"Sábado" },
+  { id:"dom", data:"01/11", nome:"Domingo" },
+  { id:"seg", data:"02/11", nome:"Segunda" },
+];
+
+const JOGOS = [
+  { dia:"sex", hora:"9H",    modalidade:"Vôlei de praia",   campeonato:"Circuito Brasileiro de Vôlei de Praia", confronto:"Etapa Maceió, 1ª rodada" },
+  { dia:"sex", hora:"12H",   modalidade:"Tênis feminino",   campeonato:"WTA 125 Curitiba Open",                confronto:"Quartas de final", versoes:["unico"], ext:".png" },
+  { dia:"sex", hora:"15H",   modalidade:"Futebol",          campeonato:"Campeonato Francês",                   confronto:"Le Havre x PSG" },
+  { dia:"sex", hora:"20H",   modalidade:"Basquete",         campeonato:"NBB",                                  confronto:"Flamengo x Caxias do Sul" },
+
+  { dia:"sab", hora:"9H45",  modalidade:"Futebol feminino", campeonato:"Campeonato Inglês Feminino",           confronto:"Everton x Manchester United" },
+  { dia:"sab", hora:"11H45", modalidade:"Futebol",          campeonato:"Campeonato Alemão",                    confronto:"Bayer Leverkusen x Stuttgart", obs:"Transmissão entra com o jogo em andamento" },
+  { dia:"sab", hora:"14H30", modalidade:"Futebol",          campeonato:"Campeonato Alemão",                    confronto:"Bayern de Munique x Borussia Dortmund" },
+  { dia:"sab", hora:"16H45", modalidade:"Futebol",          campeonato:"Campeonato Francês",                   confronto:"Troyes x Le Mans" },
+  { dia:"sab", hora:"19H",   modalidade:"Futsal",           campeonato:"Copa LNF de Futsal, final",            confronto:"Joinville x Carlos Barbosa", final:true },
+  { dia:"sab", hora:"21H",   modalidade:"Futebol feminino", campeonato:"Libertadores Feminina, final",         confronto:"Cruzeiro x Corinthians", final:true },
+
+  { dia:"dom", hora:"9H",    modalidade:"Vôlei de praia",   campeonato:"Circuito Brasileiro de Vôlei de Praia", confronto:"Etapa Maceió, semifinais" },
+  { dia:"dom", hora:"11H",   modalidade:"Tênis feminino",   campeonato:"WTA 125 Curitiba Open",                confronto:"Final", final:true },
+  { dia:"dom", hora:"13H15", modalidade:"Futebol",          campeonato:"Campeonato Francês",                   confronto:"Paris FC x Monaco" },
+  { dia:"dom", hora:"16H10", modalidade:"Vôlei de praia",   campeonato:"Circuito Brasileiro de Vôlei de Praia", confronto:"Etapa Maceió, finais", final:true },
+  { dia:"dom", hora:"19H",   modalidade:"Futebol feminino", campeonato:"NWSL, Americano Feminino",             confronto:"Seattle Reign x Orlando Pride" },
+
+  { dia:"seg", hora:"12H",   modalidade:"Futebol",          campeonato:"Campeonato Russo",                     confronto:"Krylya Sovetov x Zenit" },
+  { dia:"seg", hora:"18H",   modalidade:"Futebol",          campeonato:"Brasileirão Série B",                  confronto:"Athletic x Ceará" },
+  { dia:"seg", hora:"20H30", modalidade:"Futebol",          campeonato:"Brasileirão Série B",                  confronto:"Goiás x CRB" },
+];
+/* ========================================================= */
+
+const NOMES_VERSAO = { pre:"Pré-jogo", live:"Ao vivo", unico:"Peça única" };
+const TAM = ["desk", "mob"];
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const dayOf = id => DIAS.find(d => d.id === id);
+const pad = n => String(n).padStart(2, "0");
+const hoje = (() => { const d = new Date(); return pad(d.getDate()) + "/" + pad(d.getMonth() + 1) + "/" + d.getFullYear(); })();
+
+JOGOS.forEach((j, i) => {
+  j.n = i + 1;
+  j.versoes = j.versoes || VERSOES_PADRAO;
+  j.atual = j.versoes[0];
+  j.src = {}; j.ok = {};
+  j.versoes.forEach(v => TAM.forEach(t => {
+    const k = v + "-" + t;
+    j.src[k] = PASTA + `jogo-${pad(j.n)}-${k}${j.ext || EXT}`;
+    j.ok[k] = false;
+  }));
+});
+const done = j => Object.values(j.ok).every(Boolean);
+
+const ico = {
+  down:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 21h16"/></svg>',
+  link:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
+  warn:'<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>'
+};
+
+/* ---------- Dias ---------- */
+let filtro = "todos";
+function buildDays(){
+  $("#days").innerHTML = DIAS.map(d => {
+    const n = JOGOS.filter(j => j.dia === d.id).length;
+    const isToday = `${d.data}/${ANO}` === hoje;
+    return `<button class="daybtn" data-day="${d.id}" aria-pressed="false">
+      <span class="num">${d.data.slice(0,2)}</span>
+      <span class="wk">${d.nome}</span>
+      <span class="cnt">${n} jogo${n > 1 ? "s" : ""}, <b data-ready="${d.id}">0</b> prontos</span>
+      ${isToday ? '<span class="today"><i></i><span>Hoje</span></span>' : ""}
+    </button>`;
+  }).join("") + `<button class="all" data-day="todos" aria-pressed="true">Ver todos os ${JOGOS.length} jogos</button>`;
+  $("#days").addEventListener("click", e => { const b = e.target.closest("[data-day]"); if (b) select(b.dataset.day, true); });
+}
+function select(id, scroll){
+  filtro = id;
+  render();
+  try { history.replaceState(null, "", id === "todos" ? location.pathname : "#" + id); } catch(e){}
+}
+
+/* ---------- Cards ---------- */
+function shot(j, t){
+  return `<div class="shot ${t}" data-t="${t}">
+    <div class="ph"><b>Aguardando ${t === "desk" ? "desktop" : "mobile"}</b><strong>${esc(j.confronto)}</strong></div>
+    <img alt="Banner ${t === "desk" ? "desktop" : "mobile"}, ${esc(j.confronto)}">
+    <span class="tag"><span class="vname"></span>, ${t === "desk" ? "desktop" : "mobile"}</span>
+  </div>`;
+}
+function card(j){
+  const seg = j.versoes.length > 1
+    ? `<div class="vers" role="group" aria-label="Versão do banner">${j.versoes.map(v =>
+        `<button data-ver="${v}" aria-pressed="false">${v === "live" ? '<i class="dot"></i>' : ""}${NOMES_VERSAO[v]}</button>`).join("")}</div>`
+    : "";
+  return `<article class="game${j.final ? " is-final" : ""}" id="jogo-${j.n}" data-n="${j.n}">
+    <div class="info">
+      <div class="info-top">
+        <span>Jogo ${j.n}, ${esc(j.modalidade.toLowerCase())}</span>
+        ${j.final ? '<span class="pill final">Final</span>' : ""}
+        <span class="pill ok" data-ok hidden>Pronto</span>
+      </div>
+      <div class="time">${esc(j.hora)}</div>
+      <div class="match">${esc(j.confronto)}</div>
+      <div class="comp">${esc(j.campeonato)}</div>
+      ${j.obs ? `<div class="note">${ico.warn}<span>${esc(j.obs)}</span></div>` : ""}
+      ${seg}
+      <div class="actions">
+        <a class="btn primary" data-dl="desk" download aria-disabled="true">${ico.down} Desktop</a>
+        <a class="btn primary" data-dl="mob" download aria-disabled="true">${ico.down} Mobile</a>
+      </div>
+    </div>
+    <div class="shots">${shot(j, "desk")}${shot(j, "mob")}</div>
+  </article>`;
+}
+function paintCard(art){
+  const j = JOGOS[art.dataset.n - 1], v = j.atual;
+  art.querySelectorAll("[data-ver]").forEach(b => b.setAttribute("aria-pressed", b.dataset.ver === v));
+  art.querySelectorAll(".shot").forEach(el => {
+    const t = el.dataset.t, k = v + "-" + t, img = el.querySelector("img");
+    el.querySelector(".vname").textContent = NOMES_VERSAO[v];
+    const dl = art.querySelector(`[data-dl="${t}"]`);
+    dl.href = j.src[k];
+    dl.setAttribute("aria-disabled", !j.ok[k]);
+    el.classList.toggle("loaded", j.ok[k]);
+    el.querySelector(".ph").hidden = j.ok[k];
+    if (j.ok[k]) { if (img.getAttribute("src") !== j.src[k]) img.src = j.src[k]; }
+    else img.removeAttribute("src");
+  });
+  art.querySelector("[data-ok]").hidden = !done(j);
+  art.classList.toggle("is-done", done(j));
+}
+function render(){
+  const days = filtro === "todos" ? DIAS : DIAS.filter(d => d.id === filtro);
+  $("#list").innerHTML = days.map(d => {
+    const list = JOGOS.filter(j => j.dia === d.id);
+    return `<section class="day">
+      <div class="day-head"><h3>${d.nome} <em>${d.data}</em></h3><span>${list.length} jogo${list.length > 1 ? "s" : ""} ao vivo</span></div>
+      <div class="list">${list.map(card).join("")}</div>
+    </section>`;
+  }).join("");
+  $$(".game").forEach(paintCard);
+}
+
+/* Descobre quais arquivos já existem na pasta */
+function probe(){
+  JOGOS.forEach(j => Object.keys(j.src).forEach(k => {
+    const im = new Image();
+    im.onload = () => { j.ok[k] = true; const art = $(`#jogo-${j.n}`); if (art) paintCard(art); stats(); };
+    im.src = j.src[k];
+  }));
+}
+function stats(){
+}
+
+/* ---------- Cliques nos cards ---------- */
+document.addEventListener("click", async e => {
+  const art = e.target.closest(".game"); if (!art) return;
+  const j = JOGOS[art.dataset.n - 1];
+  const ver = e.target.closest("[data-ver]");
+  if (ver){ j.atual = ver.dataset.ver; paintCard(art); return; }
+  const sh = e.target.closest(".shot");
+  if (sh && sh.classList.contains("loaded")){ openLb(j.n, j.atual, sh.dataset.t); return; }
+});
+
+/* ---------- Lightbox ---------- */
+let cur = null;
+const seq = () => {
+  const view = document.body.dataset.view;
+  return JOGOS.filter(j => filtro === "todos" || j.dia === filtro).flatMap(j => j.versoes.flatMap(v => TAM
+    .filter(t => j.ok[v + "-" + t] && (view === "both" || view === t)).map(t => ({ n:j.n, v, t }))));
+};
+function openLb(n, v, t){ cur = { n, v, t }; paint(); $("#lb").classList.add("open"); document.body.style.overflow = "hidden"; $("#lb-x").focus(); }
+function closeLb(){ $("#lb").classList.remove("open"); document.body.style.overflow = ""; }
+function paint(){
+  const j = JOGOS[cur.n - 1], d = dayOf(j.dia);
+  $("#lb-img").src = j.src[cur.v + "-" + cur.t]; $("#lb-img").alt = j.confronto;
+  $("#lb-cap").innerHTML = `<div class="match">${esc(j.confronto)}</div><div class="comp">${d.nome}, ${d.data}, ${esc(j.hora)}. ${NOMES_VERSAO[cur.v]}, ${cur.t === "desk" ? "desktop" : "mobile"}.</div>`;
+}
+function step(dir){
+  const s = seq(); if (!s.length) return;
+  const i = s.findIndex(x => x.n === cur.n && x.v === cur.v && x.t === cur.t);
+  cur = s[(i + dir + s.length) % s.length]; paint();
+}
+$("#lb-x").onclick = closeLb;
+$("#lb-prev").onclick = () => step(-1);
+$("#lb-next").onclick = () => step(1);
+$("#lb").addEventListener("click", e => { if (e.target === $("#lb") || e.target.classList.contains("lb-box")) closeLb(); });
+document.addEventListener("keydown", e => {
+  if (!$("#lb").classList.contains("open")) return;
+  if (e.key === "Escape") closeLb();
+  if (e.key === "ArrowLeft") step(-1);
+  if (e.key === "ArrowRight") step(1);
+});
+
+
+/* ---------- Início ---------- */
+stats();
+const start = location.hash.slice(1);
+select(DIAS.some(d => d.id === start) ? start : "todos", false);
+probe();
+</script>
+</body>
+</html>
