@@ -3269,5 +3269,22 @@ const ACERVO = [
    "pre-desk": "Novembro/02-11/Campeonato Russo/pre-jogo-desk.png",
    "pre-mob": "Novembro/02-11/Campeonato Russo/pre-jogo-mb.png"
   }
+ },
+ {
+  "data": "2026-11-03",
+  "pasta": "Novembro/03-11/19H30 · NBB · Bauru x Cruzeiro",
+  "confronto": "Bauru x Cruzeiro",
+  "campeonato": "NBB",
+  "hora": "19H30",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/03-11/19H30 · NBB · Bauru x Cruzeiro/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/03-11/19H30 · NBB · Bauru x Cruzeiro/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/03-11/19H30 · NBB · Bauru x Cruzeiro/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/03-11/19H30 · NBB · Bauru x Cruzeiro/pre-jogo-mb.jpg"
+  }
  }
 ];
