@@ -3286,5 +3286,39 @@ const ACERVO = [
    "pre-desk": "Novembro/03-11/19H30 · NBB · Bauru x Cruzeiro/pre-jogo-desk.jpg",
    "pre-mob": "Novembro/03-11/19H30 · NBB · Bauru x Cruzeiro/pre-jogo-mb.jpg"
   }
+ },
+ {
+  "data": "2026-11-04",
+  "pasta": "Novembro/04-11/16H45 · Euroliga · Real Madrid x Panathinaikos",
+  "confronto": "Real Madrid x Panathinaikos",
+  "campeonato": "Euroliga",
+  "hora": "16H45",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/04-11/16H45 · Euroliga · Real Madrid x Panathinaikos/ao-vivo-desk.png",
+   "live-mob": "Novembro/04-11/16H45 · Euroliga · Real Madrid x Panathinaikos/ao-vivo-mb.png",
+   "pre-desk": "Novembro/04-11/16H45 · Euroliga · Real Madrid x Panathinaikos/pre-jogo-desk.png",
+   "pre-mob": "Novembro/04-11/16H45 · Euroliga · Real Madrid x Panathinaikos/pre-jogo-mb.png"
+  }
+ },
+ {
+  "data": "2026-11-04",
+  "pasta": "Novembro/04-11/19H30 · Copa do Brasil Feminina · Internacional x RB Bragantino",
+  "confronto": "Internacional x RB Bragantino",
+  "campeonato": "Copa do Brasil Feminina",
+  "hora": "19H30",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/04-11/19H30 · Copa do Brasil Feminina · Internacional x RB Bragantino/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/04-11/19H30 · Copa do Brasil Feminina · Internacional x RB Bragantino/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/04-11/19H30 · Copa do Brasil Feminina · Internacional x RB Bragantino/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/04-11/19H30 · Copa do Brasil Feminina · Internacional x RB Bragantino/pre-jogo-mb.jpg"
+  }
  }
 ];
