@@ -3034,104 +3034,87 @@ const ACERVO = [
  },
  {
   "data": "2026-10-31",
-  "pasta": "Outubro/_31-10/9H45-Campeonato Inglês Feminino · Everton x Manchester United",
-  "confronto": "Everton x Manchester United",
-  "campeonato": "Campeonato Inglês Feminino",
-  "hora": "9H45",
+  "pasta": "Outubro/_31-10/ale",
+  "confronto": "ale",
+  "campeonato": "",
+  "hora": "",
   "versoes": [
    "pre",
    "live"
   ],
   "src": {
-   "live-desk": "Outubro/_31-10/9H45-Campeonato Inglês Feminino · Everton x Manchester United/ao-vivo-desk.jpg",
-   "live-mob": "Outubro/_31-10/9H45-Campeonato Inglês Feminino · Everton x Manchester United/ao-vivo-mb.jpg",
-   "pre-desk": "Outubro/_31-10/9H45-Campeonato Inglês Feminino · Everton x Manchester United/pre-jogo-desk.jpg",
-   "pre-mob": "Outubro/_31-10/9H45-Campeonato Inglês Feminino · Everton x Manchester United/pre-jogo-mb.jpg"
+   "live-desk": "Outubro/_31-10/ale/ao-vivo-desk.jpg",
+   "live-mob": "Outubro/_31-10/ale/ao-vivo-mb.jpg",
+   "pre-desk": "Outubro/_31-10/ale/pre-jogo-desk.jpg",
+   "pre-mob": "Outubro/_31-10/ale/pre-jogo-mb.jpg"
   }
  },
  {
   "data": "2026-10-31",
-  "pasta": "Outubro/_31-10/11H45-Campeonato Alemão · Bayer Leverkusen x Stuttgart",
-  "confronto": "Bayer Leverkusen x Stuttgart",
-  "campeonato": "Campeonato Alemão",
-  "hora": "11H45",
+  "pasta": "Outubro/_31-10/ale 2",
+  "confronto": "ale 2",
+  "campeonato": "",
+  "hora": "",
   "versoes": [
    "pre",
    "live"
   ],
   "src": {
-   "live-desk": "Outubro/_31-10/11H45-Campeonato Alemão · Bayer Leverkusen x Stuttgart/ao-vivo-desk.jpg",
-   "live-mob": "Outubro/_31-10/11H45-Campeonato Alemão · Bayer Leverkusen x Stuttgart/ao-vivo-mb.jpg",
-   "pre-desk": "Outubro/_31-10/11H45-Campeonato Alemão · Bayer Leverkusen x Stuttgart/pre-jogo-desk.jpg",
-   "pre-mob": "Outubro/_31-10/11H45-Campeonato Alemão · Bayer Leverkusen x Stuttgart/pre-jogo-mb.jpg"
+   "live-desk": "Outubro/_31-10/ale 2/ao-vivo-desk.jpg",
+   "live-mob": "Outubro/_31-10/ale 2/ao-vivo-mb.jpg",
+   "pre-desk": "Outubro/_31-10/ale 2/pre-jogo-desk.jpg",
+   "pre-mob": "Outubro/_31-10/ale 2/pre-jogo-mb.jpg"
   }
  },
  {
   "data": "2026-10-31",
-  "pasta": "Outubro/_31-10/14H30-Campeonato Alemão · Bayern de Munique x Borussia Dortmund",
-  "confronto": "Bayern de Munique x Borussia Dortmund",
-  "campeonato": "Campeonato Alemão",
-  "hora": "14H30",
+  "pasta": "Outubro/_31-10/franc",
+  "confronto": "franc",
+  "campeonato": "",
+  "hora": "",
   "versoes": [
    "pre",
    "live"
   ],
   "src": {
-   "live-desk": "Outubro/_31-10/14H30-Campeonato Alemão · Bayern de Munique x Borussia Dortmund/ao-vivo-desk.jpg",
-   "live-mob": "Outubro/_31-10/14H30-Campeonato Alemão · Bayern de Munique x Borussia Dortmund/ao-vivo-mb.jpg",
-   "pre-desk": "Outubro/_31-10/14H30-Campeonato Alemão · Bayern de Munique x Borussia Dortmund/pre-jogo-desk.jpg",
-   "pre-mob": "Outubro/_31-10/14H30-Campeonato Alemão · Bayern de Munique x Borussia Dortmund/pre-jogo-mb.jpg"
+   "live-desk": "Outubro/_31-10/franc/ao-vivo-desk.jpg",
+   "live-mob": "Outubro/_31-10/franc/ao-vivo-mb.jpg",
+   "pre-desk": "Outubro/_31-10/franc/pre-jogo-desk.jpg",
+   "pre-mob": "Outubro/_31-10/franc/pre-jogo-mb.jpg"
   }
  },
  {
   "data": "2026-10-31",
-  "pasta": "Outubro/_31-10/16H45-Campeonato Francês · Troyes x Le Mans",
-  "confronto": "Troyes x Le Mans",
-  "campeonato": "Campeonato Francês",
-  "hora": "16H45",
+  "pasta": "Outubro/_31-10/ing",
+  "confronto": "ing",
+  "campeonato": "",
+  "hora": "",
   "versoes": [
    "pre",
    "live"
   ],
   "src": {
-   "live-desk": "Outubro/_31-10/16H45-Campeonato Francês · Troyes x Le Mans/ao-vivo-desk.jpg",
-   "live-mob": "Outubro/_31-10/16H45-Campeonato Francês · Troyes x Le Mans/ao-vivo-mb.jpg",
-   "pre-desk": "Outubro/_31-10/16H45-Campeonato Francês · Troyes x Le Mans/pre-jogo-desk.jpg",
-   "pre-mob": "Outubro/_31-10/16H45-Campeonato Francês · Troyes x Le Mans/pre-jogo-mb.jpg"
+   "live-desk": "Outubro/_31-10/ing/ao-vivo-desk.jpg",
+   "live-mob": "Outubro/_31-10/ing/ao-vivo-mb.jpg",
+   "pre-desk": "Outubro/_31-10/ing/pre-jogo-desk.jpg",
+   "pre-mob": "Outubro/_31-10/ing/pre-jogo-mb.jpg"
   }
  },
  {
   "data": "2026-10-31",
-  "pasta": "Outubro/_31-10/19H-Copa LNF de Futsal – FINAL · Joinville x Carlos Barbosa",
-  "confronto": "Joinville x Carlos Barbosa",
-  "campeonato": "Copa LNF de Futsal · FINAL",
-  "hora": "19H",
+  "pasta": "Outubro/_31-10/lib",
+  "confronto": "lib",
+  "campeonato": "",
+  "hora": "",
   "versoes": [
    "pre",
    "live"
   ],
   "src": {
-   "live-desk": "Outubro/_31-10/19H-Copa LNF de Futsal – FINAL · Joinville x Carlos Barbosa/ao-vivo-desk.jpg",
-   "live-mob": "Outubro/_31-10/19H-Copa LNF de Futsal – FINAL · Joinville x Carlos Barbosa/ao-vivo-mb.jpg",
-   "pre-desk": "Outubro/_31-10/19H-Copa LNF de Futsal – FINAL · Joinville x Carlos Barbosa/pre-jogo-desk.jpg",
-   "pre-mob": "Outubro/_31-10/19H-Copa LNF de Futsal – FINAL · Joinville x Carlos Barbosa/pre-jogo-mb.jpg"
-  }
- },
- {
-  "data": "2026-10-31",
-  "pasta": "Outubro/_31-10/21H-Libertadores Feminina – FINAL · Cruzeiro x Corinthians",
-  "confronto": "Cruzeiro x Corinthians",
-  "campeonato": "Libertadores Feminina · FINAL",
-  "hora": "21H",
-  "versoes": [
-   "pre",
-   "live"
-  ],
-  "src": {
-   "live-desk": "Outubro/_31-10/21H-Libertadores Feminina – FINAL · Cruzeiro x Corinthians/ao-vivo-desk.jpg",
-   "live-mob": "Outubro/_31-10/21H-Libertadores Feminina – FINAL · Cruzeiro x Corinthians/ao-vivo-mb.jpg",
-   "pre-desk": "Outubro/_31-10/21H-Libertadores Feminina – FINAL · Cruzeiro x Corinthians/pre-jogo-desk.jpg",
-   "pre-mob": "Outubro/_31-10/21H-Libertadores Feminina – FINAL · Cruzeiro x Corinthians/pre-jogo-mb.jpg"
+   "live-desk": "Outubro/_31-10/lib/ao-vivo-desk.jpg",
+   "live-mob": "Outubro/_31-10/lib/ao-vivo-mb.jpg",
+   "pre-desk": "Outubro/_31-10/lib/pre-jogo-desk.jpg",
+   "pre-mob": "Outubro/_31-10/lib/pre-jogo-mb.jpg"
   }
  },
  {
@@ -3319,6 +3302,362 @@ const ACERVO = [
    "live-mob": "Novembro/04-11/19H30 · Copa do Brasil Feminina · Internacional x RB Bragantino/ao-vivo-mb.jpg",
    "pre-desk": "Novembro/04-11/19H30 · Copa do Brasil Feminina · Internacional x RB Bragantino/pre-jogo-desk.jpg",
    "pre-mob": "Novembro/04-11/19H30 · Copa do Brasil Feminina · Internacional x RB Bragantino/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-05",
+  "pasta": "Novembro/05-11/15H45 · Euroliga · Hapoel Tel-Aviv x Barcelona",
+  "confronto": "Hapoel Tel-Aviv x Barcelona",
+  "campeonato": "Euroliga",
+  "hora": "15H45",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/05-11/15H45 · Euroliga · Hapoel Tel-Aviv x Barcelona/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/05-11/15H45 · Euroliga · Hapoel Tel-Aviv x Barcelona/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/05-11/15H45 · Euroliga · Hapoel Tel-Aviv x Barcelona/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/05-11/15H45 · Euroliga · Hapoel Tel-Aviv x Barcelona/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-05",
+  "pasta": "Novembro/05-11/19H30 · NBB · Bauru x Minas",
+  "confronto": "Bauru x Minas",
+  "campeonato": "NBB",
+  "hora": "19H30",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/05-11/19H30 · NBB · Bauru x Minas/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/05-11/19H30 · NBB · Bauru x Minas/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/05-11/19H30 · NBB · Bauru x Minas/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/05-11/19H30 · NBB · Bauru x Minas/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-06",
+  "pasta": "Novembro/06-11/CAMPEONATO RUSSO (1330) Lokomotiv x Rubin Kazan",
+  "confronto": "CAMPEONATO RUSSO Lokomotiv x Rubin Kazan",
+  "campeonato": "",
+  "hora": "13H30",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/06-11/CAMPEONATO RUSSO (1330) Lokomotiv x Rubin Kazan/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/06-11/CAMPEONATO RUSSO (1330) Lokomotiv x Rubin Kazan/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/06-11/CAMPEONATO RUSSO (1330) Lokomotiv x Rubin Kazan/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/06-11/CAMPEONATO RUSSO (1330) Lokomotiv x Rubin Kazan/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-06",
+  "pasta": "Novembro/06-11/CAMPEONATO FRANCÊS (1645)Toulouse x Strasbourg",
+  "confronto": "CAMPEONATO FRANCÊS Toulouse x Strasbourg",
+  "campeonato": "",
+  "hora": "16H45",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/06-11/CAMPEONATO FRANCÊS (1645)Toulouse x Strasbourg/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/06-11/CAMPEONATO FRANCÊS (1645)Toulouse x Strasbourg/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/06-11/CAMPEONATO FRANCÊS (1645)Toulouse x Strasbourg/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/06-11/CAMPEONATO FRANCÊS (1645)Toulouse x Strasbourg/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-06",
+  "pasta": "Novembro/06-11/BRASILEIRÃO SÉRIE B (1930) Operário x Sport",
+  "confronto": "BRASILEIRÃO SÉRIE B Operário x Sport",
+  "campeonato": "",
+  "hora": "19H30",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/06-11/BRASILEIRÃO SÉRIE B (1930) Operário x Sport/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/06-11/BRASILEIRÃO SÉRIE B (1930) Operário x Sport/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/06-11/BRASILEIRÃO SÉRIE B (1930) Operário x Sport/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/06-11/BRASILEIRÃO SÉRIE B (1930) Operário x Sport/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-07",
+  "pasta": "Novembro/07-11/Manchester City X West Ham (09-45) - INGLES Feminino",
+  "confronto": "Manchester City X West Ham (09-45)",
+  "campeonato": "INGLES Feminino",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/07-11/Manchester City X West Ham (09-45) - INGLES Feminino/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/07-11/Manchester City X West Ham (09-45) - INGLES Feminino/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/07-11/Manchester City X West Ham (09-45) - INGLES Feminino/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/07-11/Manchester City X West Ham (09-45) - INGLES Feminino/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-07",
+  "pasta": "Novembro/07-11/PSG X Lyon (16-45) - Frances",
+  "confronto": "PSG X Lyon (16-45)",
+  "campeonato": "Frances",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/07-11/PSG X Lyon (16-45) - Frances/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/07-11/PSG X Lyon (16-45) - Frances/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/07-11/PSG X Lyon (16-45) - Frances/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/07-11/PSG X Lyon (16-45) - Frances/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-07",
+  "pasta": "Novembro/07-11/São Lourenço X Vasco (19) - LNF Silver (semi)",
+  "confronto": "São Lourenço X Vasco (19)",
+  "campeonato": "LNF Silver (semi)",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/07-11/São Lourenço X Vasco (19) - LNF Silver (semi)/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/07-11/São Lourenço X Vasco (19) - LNF Silver (semi)/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/07-11/São Lourenço X Vasco (19) - LNF Silver (semi)/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/07-11/São Lourenço X Vasco (19) - LNF Silver (semi)/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-07",
+  "pasta": "Novembro/07-11/VfB Stuttgart X Wender Bremen (14-30) - Alemao",
+  "confronto": "VfB Stuttgart X Wender Bremen (14-30)",
+  "campeonato": "Alemao",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/07-11/VfB Stuttgart X Wender Bremen (14-30) - Alemao/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/07-11/VfB Stuttgart X Wender Bremen (14-30) - Alemao/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/07-11/VfB Stuttgart X Wender Bremen (14-30) - Alemao/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/07-11/VfB Stuttgart X Wender Bremen (14-30) - Alemao/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-08",
+  "pasta": "Novembro/08-11/BRASILEIRÃO SÉRIE B Ceará x America MG",
+  "confronto": "BRASILEIRÃO SÉRIE B Ceará x America MG",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/08-11/BRASILEIRÃO SÉRIE B Ceará x America MG/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/08-11/BRASILEIRÃO SÉRIE B Ceará x America MG/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/08-11/BRASILEIRÃO SÉRIE B Ceará x America MG/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/08-11/BRASILEIRÃO SÉRIE B Ceará x America MG/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-08",
+  "pasta": "Novembro/08-11/COPA DO BRASIL FEMININA Semifinal RB Bragantino x Internacional",
+  "confronto": "COPA DO BRASIL FEMININA Semifinal RB Bragantino x Internacional",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/08-11/COPA DO BRASIL FEMININA Semifinal RB Bragantino x Internacional/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/08-11/COPA DO BRASIL FEMININA Semifinal RB Bragantino x Internacional/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/08-11/COPA DO BRASIL FEMININA Semifinal RB Bragantino x Internacional/pre-jogo-desk.jpg"
+  }
+ },
+ {
+  "data": "2026-11-08",
+  "pasta": "Novembro/08-11/Corinthians X Bragantino - SUB-20",
+  "confronto": "Corinthians X Bragantino",
+  "campeonato": "SUB-20",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/08-11/Corinthians X Bragantino - SUB-20/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/08-11/Corinthians X Bragantino - SUB-20/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/08-11/Corinthians X Bragantino - SUB-20/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/08-11/Corinthians X Bragantino - SUB-20/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-08",
+  "pasta": "Novembro/08-11/Hoffenheim X Shalke 04 (15-30) - Alemao",
+  "confronto": "Hoffenheim X Shalke 04 (15-30)",
+  "campeonato": "Alemao",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/08-11/Hoffenheim X Shalke 04 (15-30) - Alemao/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/08-11/Hoffenheim X Shalke 04 (15-30) - Alemao/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/08-11/Hoffenheim X Shalke 04 (15-30) - Alemao/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/08-11/Hoffenheim X Shalke 04 (15-30) - Alemao/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-08",
+  "pasta": "Novembro/08-11/Le Mans X Monaco (13-15) - Frances",
+  "confronto": "Le Mans X Monaco (13-15)",
+  "campeonato": "Frances",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/08-11/Le Mans X Monaco (13-15) - Frances/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/08-11/Le Mans X Monaco (13-15) - Frances/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/08-11/Le Mans X Monaco (13-15) - Frances/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/08-11/Le Mans X Monaco (13-15) - Frances/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-08",
+  "pasta": "Novembro/08-11/Liverpool X Arsenal  (09) - INGLES Feminino",
+  "confronto": "Liverpool X Arsenal (09)",
+  "campeonato": "INGLES Feminino",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/08-11/Liverpool X Arsenal  (09) - INGLES Feminino/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/08-11/Liverpool X Arsenal  (09) - INGLES Feminino/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/08-11/Liverpool X Arsenal  (09) - INGLES Feminino/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/08-11/Liverpool X Arsenal  (09) - INGLES Feminino/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-09",
+  "pasta": "Novembro/09-11/La Unión (EQU) X Stein Cascavel (1430) - Libertadores Feminina de Futsal",
+  "confronto": "La Unión (EQU) X Stein Cascavel",
+  "campeonato": "Libertadores Feminina de Futsal",
+  "hora": "14H30",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/09-11/La Unión (EQU) X Stein Cascavel (1430) - Libertadores Feminina de Futsal/pre-jogo-desk ao vivo.png",
+   "pre-desk": "Novembro/09-11/La Unión (EQU) X Stein Cascavel (1430) - Libertadores Feminina de Futsal/pre-jogo-desk.png",
+   "live-mob": "Novembro/09-11/La Unión (EQU) X Stein Cascavel (1430) - Libertadores Feminina de Futsal/pre-jogo-mb ao vivo.png",
+   "pre-mob": "Novembro/09-11/La Unión (EQU) X Stein Cascavel (1430) - Libertadores Feminina de Futsal/pre-jogo-mb.png"
+  }
+ },
+ {
+  "data": "2026-11-09",
+  "pasta": "Novembro/09-11/Pinheiros X Mogi (2000) - NBB - Novo Basquete Brasil",
+  "confronto": "Pinheiros X Mogi",
+  "campeonato": "NBB · Novo Basquete Brasil",
+  "hora": "20H",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/09-11/Pinheiros X Mogi (2000) - NBB - Novo Basquete Brasil/ao-vivo-desk.png",
+   "live-mob": "Novembro/09-11/Pinheiros X Mogi (2000) - NBB - Novo Basquete Brasil/ao-vivo-mb.png",
+   "pre-desk": "Novembro/09-11/Pinheiros X Mogi (2000) - NBB - Novo Basquete Brasil/pre-jogo-desk.png",
+   "pre-mob": "Novembro/09-11/Pinheiros X Mogi (2000) - NBB - Novo Basquete Brasil/pre-jogo-mb.png"
+  }
+ },
+ {
+  "data": "2026-11-10",
+  "pasta": "Novembro/10-11/LIBERTADORES FEMININA DE FUTSAL Llaneros (COL) x Stein Cascavel",
+  "confronto": "LIBERTADORES FEMININA DE FUTSAL Llaneros (COL) x Stein Cascavel",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/10-11/LIBERTADORES FEMININA DE FUTSAL Llaneros (COL) x Stein Cascavel/pre-jogo-desk ao vivo.jpg",
+   "pre-desk": "Novembro/10-11/LIBERTADORES FEMININA DE FUTSAL Llaneros (COL) x Stein Cascavel/pre-jogo-desk.jpg",
+   "live-mob": "Novembro/10-11/LIBERTADORES FEMININA DE FUTSAL Llaneros (COL) x Stein Cascavel/pre-jogo-mb ao vivo.jpg",
+   "pre-mob": "Novembro/10-11/LIBERTADORES FEMININA DE FUTSAL Llaneros (COL) x Stein Cascavel/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-12",
+  "pasta": "Novembro/12-11/EUROLIGA DE BASQUETE Real Madrid x Estrela Vermelha",
+  "confronto": "EUROLIGA DE BASQUETE Real Madrid x Estrela Vermelha",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/12-11/EUROLIGA DE BASQUETE Real Madrid x Estrela Vermelha/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/12-11/EUROLIGA DE BASQUETE Real Madrid x Estrela Vermelha/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/12-11/EUROLIGA DE BASQUETE Real Madrid x Estrela Vermelha/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/12-11/EUROLIGA DE BASQUETE Real Madrid x Estrela Vermelha/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-12",
+  "pasta": "Novembro/12-11/NBB - NOVO BASQUETE BRASIL Botafogo x Franca",
+  "confronto": "NOVO BASQUETE BRASIL Botafogo x Franca",
+  "campeonato": "NBB",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/12-11/NBB - NOVO BASQUETE BRASIL Botafogo x Franca/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/12-11/NBB - NOVO BASQUETE BRASIL Botafogo x Franca/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/12-11/NBB - NOVO BASQUETE BRASIL Botafogo x Franca/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/12-11/NBB - NOVO BASQUETE BRASIL Botafogo x Franca/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-12",
+  "pasta": "Novembro/12-11/PAULISTÃO SUB-20 Semifinal RB Bragantino x Corinthians",
+  "confronto": "PAULISTÃO SUB-20 Semifinal RB Bragantino x Corinthians",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/12-11/PAULISTÃO SUB-20 Semifinal RB Bragantino x Corinthians/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/12-11/PAULISTÃO SUB-20 Semifinal RB Bragantino x Corinthians/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/12-11/PAULISTÃO SUB-20 Semifinal RB Bragantino x Corinthians/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/12-11/PAULISTÃO SUB-20 Semifinal RB Bragantino x Corinthians/pre-jogo-mb.jpg"
   }
  }
 ];

@@ -1,5 +1,5 @@
 {
-  "buildCommand": "node gerar-banners.js",
+  "buildCommand": "node scripts/gerar-banners.js",
   "outputDirectory": ".",
   "installCommand": "",
   "framework": null

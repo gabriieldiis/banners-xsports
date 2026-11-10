@@ -2,7 +2,7 @@
    GERADOR DO ACERVO DE BANNERS
    ---------------------------------------------------------
    Lê as pastas de mês (Setembro, Outubro, Novembro...) e cria
-   o arquivo acervo.js, que a página usa para mostrar os banners.
+   o arquivo js/acervo.js, que a página usa para mostrar os banners.
 
    Estrutura esperada:
      Outubro/_10-10/PSG x Le Mans/pre-jogo-desk.jpg
@@ -15,12 +15,12 @@
    - Pré-jogo ou ao vivo é decidido pelo nome do arquivo.
 
    Roda sozinho na Vercel a cada deploy (vercel.json).
-   Para rodar no computador: node gerar-banners.js
+   Para rodar no computador: node scripts/gerar-banners.js
    ========================================================= */
 const fs = require("fs");
 const path = require("path");
 
-const RAIZ = __dirname;
+const RAIZ = path.join(__dirname, "..");   // raiz do projeto (este arquivo fica em scripts/)
 const ANO = 2026;
 const MESES = { janeiro:1, fevereiro:2, marco:3, "março":3, abril:4, maio:5, junho:6, julho:7,
   agosto:8, setembro:9, outubro:10, novembro:11, dezembro:12 };
@@ -185,7 +185,7 @@ function gerar(){
   const ordemHora = h => { const m = (h || "").match(/(\d+)H(\d+)?/); return m ? +m[1] * 60 + (+m[2] || 0) : 9999; };
   jogos.sort((a, b) => a.data.localeCompare(b.data) || ordemHora(a.hora) - ordemHora(b.hora) || a.confronto.localeCompare(b.confronto));
   const txt = "/* Gerado automaticamente por gerar-banners.js. Não edite à mão. */\nconst ACERVO = " + JSON.stringify(jogos, null, 1) + ";\n";
-  fs.writeFileSync(path.join(RAIZ, "acervo.js"), txt);
+  fs.writeFileSync(path.join(RAIZ, "js", "acervo.js"), txt);
   const datas = new Set(jogos.map(j => j.data));
   console.log(`acervo.js: ${jogos.length} jogos em ${datas.size} datas`);
 }
