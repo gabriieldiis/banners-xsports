@@ -3609,6 +3609,68 @@ const ACERVO = [
    "pre-mob": "Novembro/10-11/LIBERTADORES FEMININA DE FUTSAL Llaneros (COL) x Stein Cascavel/pre-jogo-mb.jpg"
   }
  },
+
+
+ {
+  "data": "2026-11-11",
+  "pasta": "Novembro/11-11/Basquete",
+  "confronto": "Basquete",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/11-11/Basquete/pre-jogo-desk.jpg",
+   "pre-desk": "Novembro/11-11/Basquete/pre-jogo-desk.jpg",
+   "live-mob": "Novembro/11-11/Basquete/pre-jogo-mb.jpg",
+   "pre-mob": "Novembro/11-11/Basquete/pre-jogo-mb copiar.jpg"
+  }
+ },
+
+
+ 
+ {
+  "data": "2026-11-11",
+  "pasta": "Novembro/11-11/Copa do Brasil feminina Final",
+  "confronto": "Copa do Brasil feminina Final",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/11-11/Copa do Brasil feminina Final/ao-vivo-desk.jpg",
+   "pre-desk": "Novembro/11-11/Copa do Brasil feminina Final/pre-jogo-desk.jpg",
+   "live-mob": "Novembro/11-11/Copa do Brasil feminina Final/ao-vivo-mb.jpg",
+   "pre-mob": "Novembro/11-11/Copa do Brasil feminina Final/ao-vivo-mb copiar.jpg"
+  }
+ },
+
+  {
+  "data": "2026-11-11",
+  "pasta": "Novembro/11-11/LIBERTADORES FEMININA DE FUTSAL Stein Cascavel x Exa Ysaty (PAR)",
+  "confronto": "LIBERTADORES FEMININA DE FUTSAL Stein Cascavel x Exa Ysaty (PAR)",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/11-11/LIBERTADORES FEMININA DE FUTSAL Stein Cascavel x Exa Ysaty (PAR)/pre-jogo-desk ao vivo.jpg",
+   "pre-desk": "Novembro/11-11/LIBERTADORES FEMININA DE FUTSAL Stein Cascavel x Exa Ysaty (PAR)/pre-jogo-desk.jpg",
+   "live-mob": "Novembro/11-11/LIBERTADORES FEMININA DE FUTSAL Stein Cascavel x Exa Ysaty (PAR)/pre-jogo-mb ao vivo.jpg",
+   "pre-mob": "Novembro/11-11/LIBERTADORES FEMININA DE FUTSAL Stein Cascavel x Exa Ysaty (PAR)/pre-jogo-mb.jpg"
+  }
+ },
+
+
+
+
+
  {
   "data": "2026-11-12",
   "pasta": "Novembro/12-11/EUROLIGA DE BASQUETE Real Madrid x Estrela Vermelha",
