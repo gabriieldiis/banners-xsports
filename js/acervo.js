@@ -3650,6 +3650,7 @@ const ACERVO = [
  },
 
  
+
   {
   "data": "2026-11-11",
   "pasta": "Novembro/11-11/LIBERTADORES FEMININA DE FUTSAL Stein Cascavel x Exa Ysaty (PAR)",
