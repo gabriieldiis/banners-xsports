@@ -3721,5 +3721,430 @@ const ACERVO = [
    "pre-desk": "Novembro/12-11/PAULISTÃO SUB-20 Semifinal RB Bragantino x Corinthians/pre-jogo-desk.jpg",
    "pre-mob": "Novembro/12-11/PAULISTÃO SUB-20 Semifinal RB Bragantino x Corinthians/pre-jogo-mb.jpg"
   }
+ },
+ {
+  "data": "2026-11-13",
+  "pasta": "Novembro/13-11/LIBERTADORES FEMININA DE FUTSAL Semifinal Cascavel x Peñarol",
+  "confronto": "LIBERTADORES FEMININA DE FUTSAL Semifinal Cascavel x Peñarol",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/13-11/LIBERTADORES FEMININA DE FUTSAL Semifinal Cascavel x Peñarol/pre-jogo-desk ao vivo.jpg",
+   "pre-desk": "Novembro/13-11/LIBERTADORES FEMININA DE FUTSAL Semifinal Cascavel x Peñarol/pre-jogo-desk.jpg",
+   "live-mob": "Novembro/13-11/LIBERTADORES FEMININA DE FUTSAL Semifinal Cascavel x Peñarol/pre-jogo-mb ao vivo.jpg",
+   "pre-mob": "Novembro/13-11/LIBERTADORES FEMININA DE FUTSAL Semifinal Cascavel x Peñarol/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-13",
+  "pasta": "Novembro/13-11/NBB - NOVO BASQUETE BRASIL São José x Paulistano",
+  "confronto": "NOVO BASQUETE BRASIL São José x Paulistano",
+  "campeonato": "NBB",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/13-11/NBB - NOVO BASQUETE BRASIL São José x Paulistano/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/13-11/NBB - NOVO BASQUETE BRASIL São José x Paulistano/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/13-11/NBB - NOVO BASQUETE BRASIL São José x Paulistano/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/13-11/NBB - NOVO BASQUETE BRASIL São José x Paulistano/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-13",
+  "pasta": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Feminino",
+  "confronto": "WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Feminino",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Feminino/ao-vivo_desk.jpg",
+   "live-mob": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Feminino/ao-vivo_mob.jpg",
+   "pre-desk": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Feminino/pre_desk.jpg",
+   "pre-mob": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Feminino/pre_mob.jpg"
+  }
+ },
+ {
+  "data": "2026-11-13",
+  "pasta": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Masculino",
+  "confronto": "WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Masculino",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Masculino/ao-vivo_desk.jpg",
+   "live-mob": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Masculino/ao-vivo_mob.jpg",
+   "pre-desk": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Masculino/pre_desk.jpg",
+   "pre-mob": "Novembro/13-11/WTCS MUNDIAL DE TRIATLO Etapa da Abu Dhabi - Masculino/pre_mob.jpg"
+  }
+ },
+ {
+  "data": "2026-11-14",
+  "pasta": "Novembro/14-11/4-Brasileirão Série B - Juventude x Botafogo - SP",
+  "confronto": "Juventude x Botafogo",
+  "campeonato": "Brasileirão Série B · SP",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/14-11/4-Brasileirão Série B - Juventude x Botafogo - SP/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/14-11/4-Brasileirão Série B - Juventude x Botafogo - SP/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/14-11/4-Brasileirão Série B - Juventude x Botafogo - SP/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/14-11/4-Brasileirão Série B - Juventude x Botafogo - SP/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-14",
+  "pasta": "Novembro/14-11/1-Campeonato Inglês Feminino - Manchester United x Crystal Palace",
+  "confronto": "Manchester United x Crystal Palace",
+  "campeonato": "Campeonato Inglês Feminino",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/14-11/1-Campeonato Inglês Feminino - Manchester United x Crystal Palace/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/14-11/1-Campeonato Inglês Feminino - Manchester United x Crystal Palace/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/14-11/1-Campeonato Inglês Feminino - Manchester United x Crystal Palace/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/14-11/1-Campeonato Inglês Feminino - Manchester United x Crystal Palace/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-14",
+  "pasta": "Novembro/14-11/6-Copa Intercontinental de Futsal - Pato x Al Ula (SAU)",
+  "confronto": "Pato x Al Ula (SAU)",
+  "campeonato": "Copa Intercontinental de Futsal",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/14-11/6-Copa Intercontinental de Futsal - Pato x Al Ula (SAU)/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/14-11/6-Copa Intercontinental de Futsal - Pato x Al Ula (SAU)/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/14-11/6-Copa Intercontinental de Futsal - Pato x Al Ula (SAU)/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/14-11/6-Copa Intercontinental de Futsal - Pato x Al Ula (SAU)/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-14",
+  "pasta": "Novembro/14-11/5-Copa Argentina - SEMIFINAL Banfield x Boca Juniors",
+  "confronto": "SEMIFINAL Banfield x Boca Juniors",
+  "campeonato": "Copa Argentina",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/14-11/5-Copa Argentina - SEMIFINAL Banfield x Boca Juniors/ao-vivo_desk.png",
+   "live-mob": "Novembro/14-11/5-Copa Argentina - SEMIFINAL Banfield x Boca Juniors/ao-vivo_mob.png",
+   "pre-desk": "Novembro/14-11/5-Copa Argentina - SEMIFINAL Banfield x Boca Juniors/pre-jogo_desk.jpg",
+   "pre-mob": "Novembro/14-11/5-Copa Argentina - SEMIFINAL Banfield x Boca Juniors/pre-jogo_mob.png"
+  }
+ },
+ {
+  "data": "2026-11-14",
+  "pasta": "Novembro/14-11/2-LNF Silver - SEMIFINAL Vasco x São Lourenço",
+  "confronto": "SEMIFINAL Vasco x São Lourenço",
+  "campeonato": "LNF Silver",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/14-11/2-LNF Silver - SEMIFINAL Vasco x São Lourenço/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/14-11/2-LNF Silver - SEMIFINAL Vasco x São Lourenço/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/14-11/2-LNF Silver - SEMIFINAL Vasco x São Lourenço/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/14-11/2-LNF Silver - SEMIFINAL Vasco x São Lourenço/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-14",
+  "pasta": "Novembro/14-11/3-Campeonato Americano Feminino - SEMIFINAL Washington Spirit x Utah Royals",
+  "confronto": "SEMIFINAL Washington Spirit x Utah Royals",
+  "campeonato": "Campeonato Americano Feminino",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/14-11/3-Campeonato Americano Feminino - SEMIFINAL Washington Spirit x Utah Royals/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/14-11/3-Campeonato Americano Feminino - SEMIFINAL Washington Spirit x Utah Royals/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/14-11/3-Campeonato Americano Feminino - SEMIFINAL Washington Spirit x Utah Royals/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/14-11/3-Campeonato Americano Feminino - SEMIFINAL Washington Spirit x Utah Royals/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-15",
+  "pasta": "Novembro/15-11/2-Campeonato Inglês Feminino - Arsenal x London City",
+  "confronto": "Arsenal x London City",
+  "campeonato": "Campeonato Inglês Feminino",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/15-11/2-Campeonato Inglês Feminino - Arsenal x London City/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/15-11/2-Campeonato Inglês Feminino - Arsenal x London City/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/15-11/2-Campeonato Inglês Feminino - Arsenal x London City/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/15-11/2-Campeonato Inglês Feminino - Arsenal x London City/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-15",
+  "pasta": "Novembro/15-11/3-Copa do Brasil Feminina - FINAL Internacional x Flamengo",
+  "confronto": "FINAL Internacional x Flamengo",
+  "campeonato": "Copa do Brasil Feminina",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/15-11/3-Copa do Brasil Feminina - FINAL Internacional x Flamengo/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/15-11/3-Copa do Brasil Feminina - FINAL Internacional x Flamengo/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/15-11/3-Copa do Brasil Feminina - FINAL Internacional x Flamengo/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/15-11/3-Copa do Brasil Feminina - FINAL Internacional x Flamengo/ao-vivo-mb copiar.jpg"
+  }
+ },
+ {
+  "data": "2026-11-15",
+  "pasta": "Novembro/15-11/4-Copa Intercontinental de Futsal - Palma Futsal (ESP) x AL Ula (SAU)",
+  "confronto": "Palma Futsal (ESP) x AL Ula (SAU)",
+  "campeonato": "Copa Intercontinental de Futsal",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/15-11/4-Copa Intercontinental de Futsal - Palma Futsal (ESP) x AL Ula (SAU)/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/15-11/4-Copa Intercontinental de Futsal - Palma Futsal (ESP) x AL Ula (SAU)/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/15-11/4-Copa Intercontinental de Futsal - Palma Futsal (ESP) x AL Ula (SAU)/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/15-11/4-Copa Intercontinental de Futsal - Palma Futsal (ESP) x AL Ula (SAU)/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-15",
+  "pasta": "Novembro/15-11/1-LNF Silver - SEMIFINAL Chopinzinho x Dracena",
+  "confronto": "SEMIFINAL Chopinzinho x Dracena",
+  "campeonato": "LNF Silver",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/15-11/1-LNF Silver - SEMIFINAL Chopinzinho x Dracena/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/15-11/1-LNF Silver - SEMIFINAL Chopinzinho x Dracena/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/15-11/1-LNF Silver - SEMIFINAL Chopinzinho x Dracena/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/15-11/1-LNF Silver - SEMIFINAL Chopinzinho x Dracena/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-16",
+  "pasta": "Novembro/16-11/Carlos Barbosa X Sporting Lisboa - Intercontinental Futsal",
+  "confronto": "Carlos Barbosa X Sporting Lisboa",
+  "campeonato": "Intercontinental Futsal",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/16-11/Carlos Barbosa X Sporting Lisboa - Intercontinental Futsal/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/16-11/Carlos Barbosa X Sporting Lisboa - Intercontinental Futsal/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/16-11/Carlos Barbosa X Sporting Lisboa - Intercontinental Futsal/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/16-11/Carlos Barbosa X Sporting Lisboa - Intercontinental Futsal/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-16",
+  "pasta": "Novembro/16-11/Pato X Palma",
+  "confronto": "Pato X Palma",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/16-11/Pato X Palma/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/16-11/Pato X Palma/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/16-11/Pato X Palma/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/16-11/Pato X Palma/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-16",
+  "pasta": "Novembro/16-11/Pato X Palma - Intercontinental Futsal",
+  "confronto": "Pato X Palma",
+  "campeonato": "Intercontinental Futsal",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/16-11/Pato X Palma - Intercontinental Futsal/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/16-11/Pato X Palma - Intercontinental Futsal/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/16-11/Pato X Palma - Intercontinental Futsal/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/16-11/Pato X Palma - Intercontinental Futsal/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-17",
+  "pasta": "Novembro/17-11/EUROLIGA DE BASQUETE Barcelona x Paris",
+  "confronto": "EUROLIGA DE BASQUETE Barcelona x Paris",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/17-11/EUROLIGA DE BASQUETE Barcelona x Paris/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/17-11/EUROLIGA DE BASQUETE Barcelona x Paris/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/17-11/EUROLIGA DE BASQUETE Barcelona x Paris/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/17-11/EUROLIGA DE BASQUETE Barcelona x Paris/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-18",
+  "pasta": "Novembro/18-11/2-COPA INTERCONTINENTAL DE FUTSAL Semifinal 1",
+  "confronto": "COPA INTERCONTINENTAL DE FUTSAL Semifinal 1",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/18-11/2-COPA INTERCONTINENTAL DE FUTSAL Semifinal 1/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/18-11/2-COPA INTERCONTINENTAL DE FUTSAL Semifinal 1/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/18-11/2-COPA INTERCONTINENTAL DE FUTSAL Semifinal 1/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/18-11/2-COPA INTERCONTINENTAL DE FUTSAL Semifinal 1/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-18",
+  "pasta": "Novembro/18-11/3-COPA INTERCONTINENTAL DE FUTSAL Semifinal 2",
+  "confronto": "COPA INTERCONTINENTAL DE FUTSAL Semifinal 2",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/18-11/3-COPA INTERCONTINENTAL DE FUTSAL Semifinal 2/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/18-11/3-COPA INTERCONTINENTAL DE FUTSAL Semifinal 2/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/18-11/3-COPA INTERCONTINENTAL DE FUTSAL Semifinal 2/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/18-11/3-COPA INTERCONTINENTAL DE FUTSAL Semifinal 2/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-18",
+  "pasta": "Novembro/18-11/1-EUROLIGA DE BASQUETE Besiktas x Real Madrid",
+  "confronto": "EUROLIGA DE BASQUETE Besiktas x Real Madrid",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/18-11/1-EUROLIGA DE BASQUETE Besiktas x Real Madrid/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/18-11/1-EUROLIGA DE BASQUETE Besiktas x Real Madrid/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/18-11/1-EUROLIGA DE BASQUETE Besiktas x Real Madrid/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/18-11/1-EUROLIGA DE BASQUETE Besiktas x Real Madrid/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-19",
+  "pasta": "Novembro/19-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)",
+  "confronto": "Bayern de Munique X Baskovia",
+  "campeonato": "Euroliga de Basquete",
+  "hora": "16H",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/19-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/19-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/19-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/19-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-19",
+  "pasta": "Novembro/19-11/Final Intercontinental Futsal",
+  "confronto": "Final Intercontinental Futsal",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/19-11/Final Intercontinental Futsal/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/19-11/Final Intercontinental Futsal/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/19-11/Final Intercontinental Futsal/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/19-11/Final Intercontinental Futsal/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-20",
+  "pasta": "Novembro/20-11/CAMPEONATO SAUDITA - Al Ahli x Al Nassr",
+  "confronto": "Al Ahli x Al Nassr",
+  "campeonato": "CAMPEONATO SAUDITA",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/20-11/CAMPEONATO SAUDITA - Al Ahli x Al Nassr/AO-VIVO-DESK.jpg",
+   "live-mob": "Novembro/20-11/CAMPEONATO SAUDITA - Al Ahli x Al Nassr/AO-VIVO-MB.jpg",
+   "pre-desk": "Novembro/20-11/CAMPEONATO SAUDITA - Al Ahli x Al Nassr/PRÉ-JOGO-DESK.jpg",
+   "pre-mob": "Novembro/20-11/CAMPEONATO SAUDITA - Al Ahli x Al Nassr/PRÉ-JOGO-MB.jpg"
+  }
+ },
+ {
+  "data": "2026-11-20",
+  "pasta": "Novembro/20-11/CAMPEONATO ALEMÃO Bayern de Munique x Colônia",
+  "confronto": "CAMPEONATO ALEMÃO Bayern de Munique x Colônia",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/20-11/CAMPEONATO ALEMÃO Bayern de Munique x Colônia/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/20-11/CAMPEONATO ALEMÃO Bayern de Munique x Colônia/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/20-11/CAMPEONATO ALEMÃO Bayern de Munique x Colônia/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/20-11/CAMPEONATO ALEMÃO Bayern de Munique x Colônia/pre-jogo-mb.jpg"
+  }
  }
 ];
