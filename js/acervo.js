@@ -4148,5 +4148,459 @@ const ACERVO = [
    "pre-desk": "Novembro/20-11/CAMPEONATO ALEMÃO Bayern de Munique x Colônia/pre-jogo-desk.jpg",
    "pre-mob": "Novembro/20-11/CAMPEONATO ALEMÃO Bayern de Munique x Colônia/pre-jogo-mb.jpg"
   }
+ },
+ {
+  "data": "2026-11-21",
+  "pasta": "Novembro/21-11/CAMPEONATO AMERICANO FEMININO Final Washington Spirit x Kansas City Current",
+  "confronto": "CAMPEONATO AMERICANO FEMININO Final Washington Spirit x Kansas City Current",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/21-11/CAMPEONATO AMERICANO FEMININO Final Washington Spirit x Kansas City Current/ao-vivo-desk.png",
+   "pre-desk": "Novembro/21-11/CAMPEONATO AMERICANO FEMININO Final Washington Spirit x Kansas City Current/pre-jogo-desk.png",
+   "pre-mob": "Novembro/21-11/CAMPEONATO AMERICANO FEMININO Final Washington Spirit x Kansas City Current/pre-jogo-mb.png"
+  }
+ },
+ {
+  "data": "2026-11-21",
+  "pasta": "Novembro/21-11/CAMPEONATO FRANCÊS Lille x Lyon",
+  "confronto": "CAMPEONATO FRANCÊS Lille x Lyon",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/21-11/CAMPEONATO FRANCÊS Lille x Lyon/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/21-11/CAMPEONATO FRANCÊS Lille x Lyon/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/21-11/CAMPEONATO FRANCÊS Lille x Lyon/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/21-11/CAMPEONATO FRANCÊS Lille x Lyon/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-21",
+  "pasta": "Novembro/21-11/CAMPEONATO FRANCÊS Nice x PSG",
+  "confronto": "CAMPEONATO FRANCÊS Nice x PSG",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/21-11/CAMPEONATO FRANCÊS Nice x PSG/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/21-11/CAMPEONATO FRANCÊS Nice x PSG/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/21-11/CAMPEONATO FRANCÊS Nice x PSG/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/21-11/CAMPEONATO FRANCÊS Nice x PSG/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-21",
+  "pasta": "Novembro/21-11/Campeonato Inglês Feminino Liverpool X Chelsea",
+  "confronto": "Campeonato Inglês Feminino Liverpool X Chelsea",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/21-11/Campeonato Inglês Feminino Liverpool X Chelsea/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/21-11/Campeonato Inglês Feminino Liverpool X Chelsea/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/21-11/Campeonato Inglês Feminino Liverpool X Chelsea/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/21-11/Campeonato Inglês Feminino Liverpool X Chelsea/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-21",
+  "pasta": "Novembro/21-11/CAMPEONATO RUSSO Rubin Kazan x Zenit",
+  "confronto": "CAMPEONATO RUSSO Rubin Kazan x Zenit",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/21-11/CAMPEONATO RUSSO Rubin Kazan x Zenit/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/21-11/CAMPEONATO RUSSO Rubin Kazan x Zenit/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/21-11/CAMPEONATO RUSSO Rubin Kazan x Zenit/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/21-11/CAMPEONATO RUSSO Rubin Kazan x Zenit/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-21",
+  "pasta": "Novembro/21-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1",
+  "confronto": "SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/21-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/21-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1/ao-vivo-mob.jpg",
+   "pre-desk": "Novembro/21-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1/pre-desk.jpg",
+   "pre-mob": "Novembro/21-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1/pre-mob.jpg"
+  }
+ },
+ {
+  "data": "2026-11-22",
+  "pasta": "Novembro/22-11/Copa do Mundo Esqui Alpino (6h30)",
+  "confronto": "Copa do Mundo Esqui Alpino",
+  "campeonato": "",
+  "hora": "6H30",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/22-11/Copa do Mundo Esqui Alpino (6h30)/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/22-11/Copa do Mundo Esqui Alpino (6h30)/hat-mb-ao-vivo.jpg",
+   "pre-mob": "Novembro/22-11/Copa do Mundo Esqui Alpino (6h30)/hat-mb-pré.jpg",
+   "pre-desk": "Novembro/22-11/Copa do Mundo Esqui Alpino (6h30)/pre-jogo-desk.jpg"
+  }
+ },
+ {
+  "data": "2026-11-22",
+  "pasta": "Novembro/22-11/Dynamo Moscou X Krasnodar (0800) - Campeonato Russo",
+  "confronto": "Dynamo Moscou X Krasnodar",
+  "campeonato": "Campeonato Russo",
+  "hora": "8H",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/22-11/Dynamo Moscou X Krasnodar (0800) - Campeonato Russo/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/22-11/Dynamo Moscou X Krasnodar (0800) - Campeonato Russo/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/22-11/Dynamo Moscou X Krasnodar (0800) - Campeonato Russo/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/22-11/Dynamo Moscou X Krasnodar (0800) - Campeonato Russo/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-22",
+  "pasta": "Novembro/22-11/Copa do Mundo Esqui Alpino (10h)",
+  "confronto": "Copa do Mundo Esqui Alpino",
+  "campeonato": "",
+  "hora": "10H",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/22-11/Copa do Mundo Esqui Alpino (10h)/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/22-11/Copa do Mundo Esqui Alpino (10h)/hat-mb-ao-vivo.jpg",
+   "pre-mob": "Novembro/22-11/Copa do Mundo Esqui Alpino (10h)/hat-mb-pré.jpg",
+   "pre-desk": "Novembro/22-11/Copa do Mundo Esqui Alpino (10h)/pre-jogo-desk.jpg"
+  }
+ },
+ {
+  "data": "2026-11-22",
+  "pasta": "Novembro/22-11/Paris FC X Angers (11h) - Campeonato Frances",
+  "confronto": "Paris FC X Angers",
+  "campeonato": "Campeonato Frances",
+  "hora": "11H",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/22-11/Paris FC X Angers (11h) - Campeonato Frances/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/22-11/Paris FC X Angers (11h) - Campeonato Frances/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/22-11/Paris FC X Angers (11h) - Campeonato Frances/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/22-11/Paris FC X Angers (11h) - Campeonato Frances/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-22",
+  "pasta": "Novembro/22-11/Corinthians X Palmeiras (16H) FINAL -  PAULISTAO SUB-20",
+  "confronto": "Corinthians X Palmeiras FINAL",
+  "campeonato": "PAULISTAO SUB-20",
+  "hora": "16H",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/22-11/Corinthians X Palmeiras (16H) FINAL -  PAULISTAO SUB-20/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/22-11/Corinthians X Palmeiras (16H) FINAL -  PAULISTAO SUB-20/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/22-11/Corinthians X Palmeiras (16H) FINAL -  PAULISTAO SUB-20/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/22-11/Corinthians X Palmeiras (16H) FINAL -  PAULISTAO SUB-20/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-22",
+  "pasta": "Novembro/22-11/Atlético-GO X Vila Nova (1830) PLAYOFFS - Brasileirão Série B",
+  "confronto": "Atlético-GO X Vila Nova PLAYOFFS",
+  "campeonato": "Brasileirão Série B",
+  "hora": "18H30",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/22-11/Atlético-GO X Vila Nova (1830) PLAYOFFS - Brasileirão Série B/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/22-11/Atlético-GO X Vila Nova (1830) PLAYOFFS - Brasileirão Série B/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/22-11/Atlético-GO X Vila Nova (1830) PLAYOFFS - Brasileirão Série B/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/22-11/Atlético-GO X Vila Nova (1830) PLAYOFFS - Brasileirão Série B/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-22",
+  "pasta": "Novembro/22-11/Wender Bremen X Hamburgo (13-30) - Alemao",
+  "confronto": "Wender Bremen X Hamburgo (13-30)",
+  "campeonato": "Alemao",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/22-11/Wender Bremen X Hamburgo (13-30) - Alemao/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/22-11/Wender Bremen X Hamburgo (13-30) - Alemao/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/22-11/Wender Bremen X Hamburgo (13-30) - Alemao/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/22-11/Wender Bremen X Hamburgo (13-30) - Alemao/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-23",
+  "pasta": "Novembro/23-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1",
+  "confronto": "SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre"
+  ],
+  "src": {
+   "pre-desk": "Novembro/23-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/23-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 1/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-24",
+  "pasta": "Novembro/24-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)",
+  "confronto": "Bayern de Munique X Baskovia",
+  "campeonato": "Euroliga de Basquete",
+  "hora": "16H",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/24-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/24-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/24-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/24-11/Euroliga de Basquete - Bayern de Munique X Baskovia (16h)/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-24",
+  "pasta": "Novembro/24-11/Brasil X Portugal (19-30)- Amistoso Futsal",
+  "confronto": "Brasil X Portugal (19-30)- Amistoso Futsal",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/24-11/Brasil X Portugal (19-30)- Amistoso Futsal/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/24-11/Brasil X Portugal (19-30)- Amistoso Futsal/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/24-11/Brasil X Portugal (19-30)- Amistoso Futsal/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/24-11/Brasil X Portugal (19-30)- Amistoso Futsal/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-24",
+  "pasta": "Novembro/24-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 4",
+  "confronto": "SURF BRASIL PRO Etapa da Guarda do Embaú Dia 4",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/24-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 4/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/24-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 4/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/24-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 4/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/24-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 4/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-25",
+  "pasta": "Novembro/25-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Milano x Paris",
+  "confronto": "CHAMPIONS LEAGUE DE VÔLEI FEMININO Milano x Paris",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/25-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Milano x Paris/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/25-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Milano x Paris/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/25-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Milano x Paris/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/25-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Milano x Paris/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-25",
+  "pasta": "Novembro/25-11/EUROLIGA DE BASQUETE Dubai x Partizan Mozzart",
+  "confronto": "EUROLIGA DE BASQUETE Dubai x Partizan Mozzart",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/25-11/EUROLIGA DE BASQUETE Dubai x Partizan Mozzart/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/25-11/EUROLIGA DE BASQUETE Dubai x Partizan Mozzart/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/25-11/EUROLIGA DE BASQUETE Dubai x Partizan Mozzart/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/25-11/EUROLIGA DE BASQUETE Dubai x Partizan Mozzart/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-25",
+  "pasta": "Novembro/25-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 5",
+  "confronto": "SURF BRASIL PRO Etapa da Guarda do Embau Dia 5",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/25-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 5/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/25-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 5/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/25-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 5/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/25-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 5/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-26",
+  "pasta": "Novembro/26-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Conegliano x Novara",
+  "confronto": "CHAMPIONS LEAGUE DE VÔLEI FEMININO Conegliano x Novara",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/26-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Conegliano x Novara/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/26-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Conegliano x Novara/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/26-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Conegliano x Novara/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/26-11/CHAMPIONS LEAGUE DE VÔLEI FEMININO Conegliano x Novara/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-26",
+  "pasta": "Novembro/26-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 6",
+  "confronto": "SURF BRASIL PRO Etapa da Guarda do Embau Dia 6",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/26-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 6/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/26-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 6/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/26-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 6/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/26-11/SURF BRASIL PRO Etapa da Guarda do Embau Dia 6/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-26",
+  "pasta": "Novembro/26-11/TALENTOS LNF SUB-20 Final Corinthians x Minas",
+  "confronto": "TALENTOS LNF SUB-20 Final Corinthians x Minas",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/26-11/TALENTOS LNF SUB-20 Final Corinthians x Minas/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/26-11/TALENTOS LNF SUB-20 Final Corinthians x Minas/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/26-11/TALENTOS LNF SUB-20 Final Corinthians x Minas/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/26-11/TALENTOS LNF SUB-20 Final Corinthians x Minas/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-27",
+  "pasta": "Novembro/27-11/Brest X Paris FC (16H45) - Campeonato Frances",
+  "confronto": "Brest X Paris FC",
+  "campeonato": "Campeonato Frances",
+  "hora": "16H45",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/27-11/Brest X Paris FC (16H45) - Campeonato Frances/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/27-11/Brest X Paris FC (16H45) - Campeonato Frances/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/27-11/Brest X Paris FC (16H45) - Campeonato Frances/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/27-11/Brest X Paris FC (16H45) - Campeonato Frances/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-27",
+  "pasta": "Novembro/27-11/Vila Nova X Atlético-GO (20h) PLAYOFFS - Brasileirão Série B",
+  "confronto": "Vila Nova X Atlético-GO PLAYOFFS",
+  "campeonato": "Brasileirão Série B",
+  "hora": "20H",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/27-11/Vila Nova X Atlético-GO (20h) PLAYOFFS - Brasileirão Série B/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/27-11/Vila Nova X Atlético-GO (20h) PLAYOFFS - Brasileirão Série B/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/27-11/Vila Nova X Atlético-GO (20h) PLAYOFFS - Brasileirão Série B/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/27-11/Vila Nova X Atlético-GO (20h) PLAYOFFS - Brasileirão Série B/pre-jogo-mb.jpg"
+  }
+ },
+ {
+  "data": "2026-11-27",
+  "pasta": "Novembro/27-11/Al Ittihad x Neom - Campeonato Saudita",
+  "confronto": "Al Ittihad x Neom",
+  "campeonato": "Campeonato Saudita",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/27-11/Al Ittihad x Neom - Campeonato Saudita/ARABE-DESK-AOVIVO.jpg",
+   "live-mob": "Novembro/27-11/Al Ittihad x Neom - Campeonato Saudita/ARABE-MOB-aovivo.jpg",
+   "pre-desk": "Novembro/27-11/Al Ittihad x Neom - Campeonato Saudita/ARABE-PRE-DESK.jpg"
+  }
+ },
+ {
+  "data": "2026-11-27",
+  "pasta": "Novembro/27-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 7",
+  "confronto": "SURF BRASIL PRO Etapa da Guarda do Embaú Dia 7",
+  "campeonato": "",
+  "hora": "",
+  "versoes": [
+   "pre",
+   "live"
+  ],
+  "src": {
+   "live-desk": "Novembro/27-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 7/ao-vivo-desk.jpg",
+   "live-mob": "Novembro/27-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 7/ao-vivo-mb.jpg",
+   "pre-desk": "Novembro/27-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 7/pre-jogo-desk.jpg",
+   "pre-mob": "Novembro/27-11/SURF BRASIL PRO Etapa da Guarda do Embaú Dia 7/pre-jogo-mb.jpg"
+  }
  }
 ];
